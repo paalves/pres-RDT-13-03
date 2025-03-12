@@ -328,7 +328,7 @@ return_values_plot <- function(data, var_name = "hs", threshold_quantile = 0.96,
     results      = result,
     fit_info     = fit_info,
     return_table = return_table,
-    qq_plot      = qq_plot,           # Nouveau : QQ-plot
-    density_plot = density_plot       # Nouveau : Graphique de densité
+    qq_plot      = qq_plot,        
+    density_plot = density_plot    
   ))
 }
